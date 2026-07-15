@@ -1,0 +1,17 @@
+# Cache & generated artifacts
+.cache/
+reports/
+*.log
+__pycache__/
+*.pyc
+
+# Local tooling config (machine-specific permissions, not shareable)
+.claude/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets — Hyperliquid wallet credentials, never commit
+.env
+config.json
